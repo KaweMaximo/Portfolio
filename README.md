@@ -1,43 +1,93 @@
-# Svelte + Vite
+# Kawe Maximo | Portfolio
 
-This template should help get you started developing with Svelte in Vite.
+![Kawe Maximo Portfolio](public/KaweMaximo.png)
 
-## Recommended IDE Setup
+> **Engenheiro de Software & Arquiteto de Soluções**
+> Transformando ideias complexas em código escalável.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## 🚀 Sobre o Projeto
 
-## Need an official Svelte framework?
+Este portfólio "Futurista" foi desenvolvido para apresentar minha trajetória profissional, habilidades técnicas e projetos inovadores. O design foca em imersão visual com tema dark/neon, efeitos de glassmorphism e animações fluidas, tudo construído com **CSS Puro** e **Svelte** para máxima performance.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+### ✨ Principais Funcionalidades
 
-## Technical considerations
+*   **Design Responsivo & Moderno:** Layout adaptável para Desktop, Tablet e Mobile.
+*   **Animações de Alta Performance:** Efeitos de hover, glow e digitação (Typewriter) sem peso de bibliotecas externas.
+*   **Carrossel de Projetos:** Visualização interativa dos principais trabalhos (Comerciais, Inovação e Segurança).
+*   **Integração Acadêmica:** Link direto com cartão estilizado para perfil Lattes (CNPq).
+*   **SEO Otimizado:** Meta tags semânticas, JSON-LD, Sitemap e Robots.txt configurados.
 
-**Why use this over SvelteKit?**
+---
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## 🛠️ Tecnologias Utilizadas
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+Este projeto utiliza as tecnologias mais modernas do ecossistema JavaScript e DevOps:
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+*   **Frontend:** [Svelte 5](https://svelte.dev/) + [Vite](https://vitejs.dev/)
+*   **Estilização:** Vanilla CSS (CSS Variables, Flexbox, Grid, Animations)
+*   **Containerização:** Docker (Multi-stage build)
+*   **Web Server:** Nginx (Alpine Linux) com Gzip & Caching
+*   **Cloud:** Google Cloud Run (Serverless) + Artifact Registry
+*   **CI/CD:** Scripts de automação Bash (`deploy.sh`)
 
-**Why include `.vscode/extensions.json`?**
+---
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+## 🏗️ Como Rodar Localmente
 
-**Why enable `checkJs` in the JS template?**
+Certifique-se de ter o **Node.js 20+** instalado.
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/KaweMaximo/Portfolio.git
+    cd Portfolio
+    ```
 
-**Why is HMR not preserving my local component state?**
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+3.  **Rode o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+    Acesse: `http://localhost:5173`
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+---
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+## 🐳 Rodando com Docker
+
+Se preferir testar a versão de produção containerizada:
+
+1.  **Construir a imagem:**
+    ```bash
+    docker build -t portfolio .
+    ```
+
+2.  **Rodar o container:**
+    ```bash
+    docker run -p 8080:8080 portfolio
+    ```
+    Acesse: `http://localhost:8080`
+
+---
+
+## ☁️ Deploy (Google Cloud Run)
+
+O projeto inclui um script automatizado (`deploy.sh`) para fácil implantação.
+
+**Pré-requisitos:**
+*   Google Cloud SDK instalado e autenticado.
+*   API do Cloud Run e Artifact Registry ativadas.
+
+**Comando:**
+```bash
+./deploy.sh
 ```
+
+---
+
+## 📄 Licença
+
+Desenvolvido por **Kawe Maximo Godoi**.
+Todos os direitos reservados.
