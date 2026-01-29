@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KaweMaximo/Portfolio/main/public/KaweMaximo.png" alt="Kawe Maximo Logo" width="180" style="border-radius: 50%; border: 4px solid #00f3ff;"/>
-  
+<div align="center">  
   <h1 style="font-size: 2.5rem; margin-bottom: 0;">Hi, I'm Kawe Maximo! 👋</h1>
   <h3 style="color: #bd00ff;">Software Engineer & Solutions Architect</h3>
   
@@ -58,7 +56,7 @@ Despite my age, I have accumulated significant experience in leadership and arch
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon&logoColor=white" />
+<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
 <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 
 ### Databases
@@ -85,15 +83,6 @@ Despite my age, I have accumulated significant experience in leadership and arch
 *   **Python Advanced** (113h Course)
 *   **Design Thinking** (112h Course)
 *   **Database Administration & Modeling** (Fundação Bradesco)
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KaweMaximo&show_icons=true&theme=radical&hide_border=true" height="180" alt="Kawe Maximo Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KaweMaximo&layout=compact&theme=radical&hide_border=true" height="180" alt="Top Languages" />
-</div>
 
 <br />
 
