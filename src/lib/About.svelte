@@ -46,7 +46,7 @@
             <span class="cert-place">Google (2025)</span>
           </li>
           <li>
-            <span class="cert-title">Análise de Sistemas</span>
+            <span class="cert-title">Análise e Desenvolvimento de Sistemas</span>
             <span class="cert-place">Tecnólogo (2022)</span>
           </li>
         </ul>
